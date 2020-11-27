@@ -897,7 +897,7 @@ console.log("res last line 969");
       if (!Array.isArray(data) || !data.length) {                
      return res.json({
        success: 200,
-       message: "Email Record not Found in user table"
+       message: "Bank Data not Found in user table"
      });
    }}
    
@@ -1078,9 +1078,9 @@ console.log("res last line 969");
        }else{
          agmess= {
            status:400,
-           message:'Failed',
+           message:msg,
           // message_1: fatcaresult2, 
-          data:  msg,
+         // data:  msg,
            //"1": ashdata2 ,"2": ashdata3, "3": ashdata4,"4": ashdata5, "5": ashdata6, "6": ashdata7},              
       //message_third_api:'FAILED',
      message_full:fatcaresult2,
@@ -1126,7 +1126,7 @@ console.log("res last line 969");
       if (!Array.isArray(data) || !data.length) {                
      return res.json({
        success: 200,
-       message: "Email Record not Found in user table"
+       message: "Bank Data not Found in user table"
      });
    }}
    
@@ -1316,9 +1316,9 @@ console.log("res last line 969");
        }else{
          agmess= {
            status:400,
-           message:'Failed',
+           message:msg,
           // message_1: fatcaresult2, 
-          data:  msg,
+          //data:  msg,
            //"1": ashdata2 ,"2": ashdata3, "3": ashdata4,"4": ashdata5, "5": ashdata6, "6": ashdata7},              
       //message_third_api:'FAILED',
      message_full:fatcaresult2,
